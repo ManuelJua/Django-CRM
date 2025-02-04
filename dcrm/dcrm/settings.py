@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME':getenv('NEON_DB_NAME'),
         'USER':getenv('NEON_DB_USER'),
-        'PASSWORD':getenv('NEON_DB_PASSWORD'),
+        'PASSWORD':getenv('NEON_DB_PASSWORD'),  
         'HOST':getenv('NEON_DB_HOST'),
         'PORT':'5432', 
         'OPTIONS': {
