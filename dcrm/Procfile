@@ -1,1 +1,1 @@
-web: gunicorn dcrm.wsgi:application
+web: gunicorn dcrm.dcrm.wsgi:application
